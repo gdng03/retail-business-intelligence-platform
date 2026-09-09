@@ -8,7 +8,7 @@ The project focuses on **SQL analytics, dimensional modeling, Data Warehouse, Po
 
 ---
 
-## 📌 Project Objective
+## Project Objective
 
 The objective is to transform raw Olist e-commerce data into an analytical model that can answer business questions around:
 
@@ -27,7 +27,7 @@ This project is designed to demonstrate practical skills for:
 
 ---
 
-# 🛠️ Tech Stack
+# Tech Stack
 
 | Area | Technology |
 |---|---|
@@ -44,7 +44,7 @@ This project is designed to demonstrate practical skills for:
 
 ---
 
-# 🏗️ High-Level Architecture
+# High-Level Architecture
 
 ```text
                     OLIST DATASET
@@ -98,7 +98,7 @@ The focus is on:
 
 ---
 
-# 📊 Source Data
+# Source Data
 
 The project uses the **Olist Brazilian E-commerce Dataset**.
 
@@ -137,7 +137,7 @@ The Olist order reviews dataset was intentionally excluded because the source fi
 
 ---
 
-# 🗄️ Database Architecture
+# Database Architecture
 
 ## PostgreSQL
 
@@ -179,7 +179,7 @@ SQL Server contains the transactional sales/order data used for the main sales a
 
 ---
 
-# 🔎 SQL Analytics Layer
+# SQL Analytics Layer
 
 Before building the Data Warehouse, analytical SQL was developed to understand the source data and generate business analysis.
 
@@ -219,7 +219,7 @@ This is used to compare current-month sales with the previous month.
 
 ---
 
-# 👁️ SQL Views
+# SQL Views
 
 Reusable analytical views were created in SQL Server.
 
@@ -254,7 +254,7 @@ Contain specific analytical queries and business analysis using techniques such 
 
 ---
 
-# ⭐ Data Warehouse
+# Data Warehouse
 
 Database:
 
@@ -282,7 +282,7 @@ Dim_Customer ---- Fact_Sales ---- Dim_Product
 
 ---
 
-# 📈 Fact Table
+# Fact Table
 
 ## `dw.Fact_Sales`
 
@@ -339,7 +339,7 @@ This would inflate sales metrics.
 
 ---
 
-# 📐 Dimension Tables
+# Dimension Tables
 
 The Data Warehouse contains four dimensions.
 
@@ -394,7 +394,7 @@ seller_id
 
 ---
 
-# 🔄 Customer & Seller Data Movement
+# Customer & Seller Data Movement
 
 Customer and seller data originate from PostgreSQL, while the Data Warehouse is hosted in SQL Server.
 
@@ -421,7 +421,7 @@ This is a simple bridge between the two DBMSs rather than a full staging archite
 
 ---
 
-# 📥 Import Helper Tables
+# Import Helper Tables
 
 Two helper tables were used during dimension loading:
 
@@ -449,7 +449,7 @@ This approach was useful because the CSV contains the business identifier while 
 
 ---
 
-# ✅ Data Validation
+# Data Validation
 
 Before connecting Power BI, the fact table was validated for:
 
@@ -492,7 +492,7 @@ total_item_value = price + freight_value
 
 ---
 
-# 📊 Power BI
+# Power BI
 
 The Data Warehouse is connected to **Microsoft Power BI Desktop**.
 
@@ -513,7 +513,7 @@ The project uses the **Import** connectivity mode.
 
 ---
 
-# 📁 Power BI Report
+# Power BI Report
 
 A Power BI report file (`.pbix`) accompanies this project.
 
@@ -540,7 +540,7 @@ retail-business-intelligence-platform/
 
 ---
 
-# 🔗 Power BI Data Model
+# Power BI Data Model
 
 The Power BI model follows the Star Schema:
 
@@ -586,7 +586,7 @@ Fact
 
 ---
 
-# 🧮 DAX Measures — Next Phase
+# DAX Measures — Next Phase
 
 The Power BI data model is now ready for the **DAX Measures** layer.
 
@@ -717,7 +717,6 @@ The final portfolio package will contain:
 ---
 
 
-
 # Key Learning Outcomes
 
 Through this project, the following practical skills are demonstrated:
@@ -764,8 +763,3 @@ Through this project, the following practical skills are demonstrated:
 - Seller analysis
 - Business insights
 
----
-
-## ⭐ Project Status
-
-**Current milestone: Power BI Data Model completed → DAX Measures next.**

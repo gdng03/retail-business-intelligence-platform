@@ -1,0 +1,10 @@
+column,dtype,non_null,null_count,null_percent,unique,sample,min,max
+product_id,str,32951,0,0.0,32951,1e9e8ef04dbcff4541ed26657ea517e5,,
+product_category_name,str,32341,610,1.85,73,perfumaria,,
+product_name_lenght,float64,32341,610,1.85,66,40.0,5.0,76.0
+product_description_lenght,float64,32341,610,1.85,2960,287.0,4.0,3992.0
+product_photos_qty,float64,32341,610,1.85,19,1.0,1.0,20.0
+product_weight_g,float64,32949,2,0.01,2204,225.0,0.0,40425.0
+product_length_cm,float64,32949,2,0.01,99,16.0,7.0,105.0
+product_height_cm,float64,32949,2,0.01,102,10.0,2.0,105.0
+product_width_cm,float64,32949,2,0.01,95,14.0,6.0,118.0

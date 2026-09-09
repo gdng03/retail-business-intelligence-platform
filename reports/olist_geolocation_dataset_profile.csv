@@ -1,0 +1,6 @@
+column,dtype,non_null,null_count,null_percent,unique,sample,min,max
+geolocation_zip_code_prefix,int64,1000163,0,0.0,19015,1037,1001,99990
+geolocation_lat,float64,1000163,0,0.0,717360,-23.54562128115268,-36.6053744107061,45.06593318269697
+geolocation_lng,float64,1000163,0,0.0,717613,-46.63929204800168,-101.46676644931476,121.10539381057764
+geolocation_city,str,1000163,0,0.0,8011,sao paulo,,
+geolocation_state,str,1000163,0,0.0,27,SP,,

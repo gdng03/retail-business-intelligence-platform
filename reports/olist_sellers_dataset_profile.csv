@@ -1,0 +1,5 @@
+column,dtype,non_null,null_count,null_percent,unique,sample,min,max
+seller_id,str,3095,0,0.0,3095,3442f8959a84dea7ee197c632cb2df15,,
+seller_zip_code_prefix,int64,3095,0,0.0,2246,13023,1001,99730
+seller_city,str,3095,0,0.0,611,campinas,,
+seller_state,str,3095,0,0.0,23,SP,,

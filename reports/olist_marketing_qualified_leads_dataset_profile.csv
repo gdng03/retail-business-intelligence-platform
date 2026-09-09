@@ -1,0 +1,5 @@
+column,dtype,non_null,null_count,null_percent,unique,sample,min,max
+mql_id,str,8000,0,0.0,8000,dac32acd4db4c29c230538b72f8dd87d,,
+first_contact_date,str,8000,0,0.0,336,2018-02-01,,
+landing_page_id,str,8000,0,0.0,495,88740e65d5d6b056e0cda098e1ea6313,,
+origin,str,7940,60,0.75,10,social,,

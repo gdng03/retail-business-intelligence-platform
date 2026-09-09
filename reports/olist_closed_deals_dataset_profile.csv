@@ -1,0 +1,15 @@
+column,dtype,non_null,null_count,null_percent,unique,sample,min,max
+mql_id,str,842,0,0.0,842,5420aad7fec3549a85876ba1c529bd84,,
+seller_id,str,842,0,0.0,842,2c43fb513632d29b3b58df74816f1b06,,
+sdr_id,str,842,0,0.0,32,a8387c01a09e99ce014107505b92388c,,
+sr_id,str,842,0,0.0,22,4ef15afb4b2723d8f3d81e51ec7afefe,,
+won_date,str,842,0,0.0,824,2018-02-26 19:58:54,,
+business_segment,str,841,1,0.12,33,pet,,
+lead_type,str,836,6,0.71,8,online_medium,,
+lead_behaviour_profile,str,665,177,21.02,9,cat,,
+has_company,object,63,779,92.52,2,True,,
+has_gtin,object,64,778,92.4,2,True,,
+average_stock,str,66,776,92.16,6,20-50,,
+business_type,str,832,10,1.19,3,reseller,,
+declared_product_catalog_size,float64,69,773,91.81,33,2000.0,1.0,2000.0
+declared_monthly_revenue,float64,842,0,0.0,27,0.0,0.0,50000000.0

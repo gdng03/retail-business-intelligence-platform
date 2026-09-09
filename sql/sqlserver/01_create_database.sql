@@ -1,0 +1,2 @@
+CREATE DATABASE olist_sale;
+GO

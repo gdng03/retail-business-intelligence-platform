@@ -1,0 +1,6 @@
+column,dtype,non_null,null_count,null_percent,unique,sample,min,max
+order_id,str,103886,0,0.0,99440,b81ef226f3fe1789b1e8b2acac839d17,,
+payment_sequential,int64,103886,0,0.0,29,1,1,29
+payment_type,str,103886,0,0.0,5,credit_card,,
+payment_installments,int64,103886,0,0.0,24,8,0,24
+payment_value,float64,103886,0,0.0,29077,99.33,0.0,13664.08

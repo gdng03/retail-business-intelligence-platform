@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual Environment
+.venv/
+
+# VSCode
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment
+.env
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Power BI temp
+*.pbix.autosave
+
+# Python cache
+.pytest_cache/
+.mypy_cache/
+
+# Data (optional)
+data/processed/.venv/ 
+.env 
+__pycache__/ 
+*.log 

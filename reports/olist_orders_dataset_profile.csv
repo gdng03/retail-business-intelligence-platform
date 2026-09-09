@@ -1,0 +1,9 @@
+column,dtype,non_null,null_count,null_percent,unique,sample,min,max
+order_id,str,99441,0,0.0,99441,e481f51cbdc54678b7cc49136f2d6af7,,
+customer_id,str,99441,0,0.0,99441,9ef432eb6251297304e76186b10a928d,,
+order_status,str,99441,0,0.0,8,delivered,,
+order_purchase_timestamp,str,99441,0,0.0,98875,2017-10-02 10:56:33,,
+order_approved_at,str,99281,160,0.16,90733,2017-10-02 11:07:15,,
+order_delivered_carrier_date,str,97658,1783,1.79,81018,2017-10-04 19:55:00,,
+order_delivered_customer_date,str,96476,2965,2.98,95664,2017-10-10 21:25:13,,
+order_estimated_delivery_date,str,99441,0,0.0,459,2017-10-18 00:00:00,,

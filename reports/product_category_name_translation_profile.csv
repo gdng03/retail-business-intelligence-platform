@@ -1,0 +1,3 @@
+column,dtype,non_null,null_count,null_percent,unique,sample,min,max
+product_category_name,str,71,0,0.0,71,beleza_saude,,
+product_category_name_english,str,71,0,0.0,71,health_beauty,,

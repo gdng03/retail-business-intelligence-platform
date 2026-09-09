@@ -1,0 +1,6 @@
+column,dtype,non_null,null_count,null_percent,unique,sample,min,max
+customer_id,str,99441,0,0.0,99441,06b8999e2fba1a1fbc88172c00ba8bc7,,
+customer_unique_id,str,99441,0,0.0,96096,861eff4711a542e4b93843c6dd7febb0,,
+customer_zip_code_prefix,int64,99441,0,0.0,14994,14409,1003,99990
+customer_city,str,99441,0,0.0,4119,franca,,
+customer_state,str,99441,0,0.0,27,SP,,

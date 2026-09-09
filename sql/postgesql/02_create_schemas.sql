@@ -1,0 +1,3 @@
+CREATE SCHEMA crm;
+
+CREATE SCHEMA marketing;

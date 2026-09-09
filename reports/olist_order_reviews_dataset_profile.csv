@@ -1,0 +1,8 @@
+column,dtype,non_null,null_count,null_percent,unique,sample,min,max
+review_id,str,99224,0,0.0,98410,7bc2406110b926393aa56f80a40eba40,,
+order_id,str,99224,0,0.0,98673,73fc7af87114b39712e6da79b0a377eb,,
+review_score,int64,99224,0,0.0,5,4,1,5
+review_comment_title,str,11568,87656,88.34,4527,recomendo,,
+review_comment_message,str,40977,58247,58.7,36159,Recebi bem antes do prazo estipulado.,,
+review_creation_date,str,99224,0,0.0,636,2018-01-18 00:00:00,,
+review_answer_timestamp,str,99224,0,0.0,98248,2018-01-18 21:46:59,,
